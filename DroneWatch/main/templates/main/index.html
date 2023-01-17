@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>DroneWatch</title>
+</head>    
+
+<body>
+    {% for i in all_drones %}
+    <p>{{i.id}}    {{i.serialNumber}} {{i.pilotFirstName}} {{i.pilotLastName}} {{i.distanceNest}}</p>
+    {% endfor %}
+</body>
+</html>
