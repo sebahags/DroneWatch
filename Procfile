@@ -1,0 +1,1 @@
+web: gunicorn DroneWatch.wsgi:application --log-file-
