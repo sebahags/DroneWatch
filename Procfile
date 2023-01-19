@@ -1,1 +1,1 @@
-web: gunicorn DroneWatch.DroneWatch.wsgi: application 
+web: gunicorn DroneWatch.wsgi --log-file - 
